@@ -1,0 +1,117 @@
+/* -- GENERAL -- */
+/*#7107FF codigo violeta*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#7107ff;
+}
+
+h1{
+    color: #ffffff;
+}
+/*
+div{
+    border: solid blue 1px;
+}
+*/
+/* -- HEADER -- */
+header{
+    height: 550px;
+    text-align: center;
+    color: #ffffff;
+    background-image: url(img/guitar.jpg);
+    background-position: center;
+    background-size: cover;
+    /*position: absolute; /*arreglar position*/
+}
+
+.overlay{
+    height: 550px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(200,200,200,.2) 18%, rgba(255,255,255,.2) 40%, rgba(113,7,255,.5) 100%);
+}
+
+.btn-home{
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* -- NAVBAR -- */
+
+.btn-navbar{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+ 
+li a {
+    display: block;
+    padding: 7px;
+    margin: 3px;
+    color: #ffffff;
+}
+
+.div-presentacion{
+    position: relative;
+    top: 80px;
+}
+
+/* -- BOTONES -- */
+.div-botones{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    top: 100px;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    border: solid #7107ff
+}
+
+.boton {
+    background-color: #f5f5f5;
+    color: #7107ff;
+    border: solid #f5f5f5;
+    width: 180px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: .2s;
+    margin: 0px 10px 0px 10px;
+}
+
+/*--------------------------------------------------------*/
+
+/* -- DIV CONOCE MAS -- */
+.conoce-mas{
+    text-align: center;
+    color: #f5f5f5;     /*cambiar color de flecha a f5f5f5*/
+    background-color: #7107ff;
+}
+
+/* -- MAIN -- */
+.main{
+    position: relative;
+    top: 50px;
+    display: flex;
+}
